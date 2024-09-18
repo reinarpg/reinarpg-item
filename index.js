@@ -1,7 +1,7 @@
 const nbt = require('reinarpg-nbt')
 
 function loader (registryOrVersion) {
-  const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
+  const registry = typeof registryOrVersion === 'string' ? require('reinarpg-registry')(registryOrVersion) : registryOrVersion
   class Item {
     constructor (type, count, metadata, nbt, stackId, sentByServer) {
       if (type == null) return
@@ -67,7 +67,7 @@ function loader (registryOrVersion) {
       }
     }
 
-    // TODO: Move stack ID handling to prismarine-registry, as calling the loader again resets it here
+    // TODO: Move stack ID handling to reinarpg-registry, as calling the loader again resets it here
     static currentStackId = 0
     static nextStackId () {
       return Item.currentStackId++

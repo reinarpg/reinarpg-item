@@ -45,7 +45,7 @@ describe('test based on examples', () => {
     })
   })
   describe('bedrock_1.19.1 iron shovel', () => {
-    const registry = require('prismarine-registry')('bedrock_1.19.1')
+    const registry = require('reinarpg-registry')('bedrock_1.19.1')
     const Item = require('reinarpg-item')(registry)
     const ironShovelItem = new Item(registry.itemsByName.iron_shovel.id, 1)
 
@@ -346,7 +346,7 @@ describe('set item.enchants', () => {
     })
   })
   describe('bedrock_1.17.10 test', () => {
-    const registry = require('prismarine-registry')('bedrock_1.17.10')
+    const registry = require('reinarpg-registry')('bedrock_1.17.10')
     const Item = require('reinarpg-item')(registry)
 
     it('unenchanted stone sword', () => {
@@ -420,7 +420,7 @@ describe('set item.enchants', () => {
 
 describe('use Item.equal', () => {
   const Item = require('reinarpg-item')('1.16.5')
-  const registry = require('prismarine-registry')('1.16.5')
+  const registry = require('reinarpg-registry')('1.16.5')
   it('sh5 wep + not sh5 wep', () => {
     const itemOne = new Item(registry.itemsByName.diamond_sword.id, 1)
     itemOne.enchants = [{ name: 'sharpness', lvl: 5 }]

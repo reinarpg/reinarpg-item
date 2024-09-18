@@ -138,7 +138,7 @@ describe('1.8.9 anvil', () => {
 
 describe('1.16.5 anvil', () => {
   const Item = require('reinarpg-item')('1.16.5')
-  const registry = require('prismarine-registry')('1.16.5')
+  const registry = require('reinarpg-registry')('1.16.5')
 
   function makeBook (ench, repairCost) {
     const i = new Item(registry.itemsByName.enchanted_book.id, 1)
