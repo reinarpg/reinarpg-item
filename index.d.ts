@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-import { Tags, TagType } from 'prismarine-nbt'
+import { Tags, TagType } from 'reinarpg-nbt'
 
 export type ItemLike = Item | null
 

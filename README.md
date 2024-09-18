@@ -166,7 +166,7 @@ Max durability for the item, if it supports durability
 ## 1.11.2
 
 * Add checks for enchantment name retrieval (#53) @firejoust
-* Bump prismarine-nbt from 1.6.0 to 2.0.0 (#49)
+* Bump reinarpg-nbt from 1.6.0 to 2.0.0 (#49)
 
 ## 1.11.1
 

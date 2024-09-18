@@ -9,6 +9,6 @@ updates:
   - dependency-name: "@types/node"
     versions:
     - 15.0.0
-  - dependency-name: minecraft-data
+  - dependency-name: reinarpg-data
     versions:
     - 2.80.0
