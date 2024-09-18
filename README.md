@@ -1,13 +1,13 @@
-# prismarine-item
-[![NPM version](https://img.shields.io/npm/v/prismarine-item.svg)](http://npmjs.com/package/prismarine-item)
-[![Build Status](https://github.com/PrismarineJS/prismarine-item/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-item/actions?query=workflow%3A%22CI%22)
+# reinarpg-item
+[![NPM version](https://img.shields.io/npm/v/reinarpg-item.svg)](http://npmjs.com/package/reinarpg-item)
+[![Build Status](https://github.com/PrismarineJS/reinarpg-item/workflows/CI/badge.svg)](https://github.com/PrismarineJS/reinarpg-item/actions?query=workflow%3A%22CI%22)
 
 Represent a minecraft item with its associated data
 
 ## Usage
 
 ```js
-const Item = require('prismarine-item')('1.8')
+const Item = require('reinarpg-item')('1.8')
 
 const ironShovelItem = new Item(256, 1)
 console.log(ironShovelItem)
@@ -127,17 +127,17 @@ Max durability for the item, if it supports durability
 ## History
 
 ### 1.14.0
-* [Add `maxDurability` field, fix handling item sent by server with new `sentByServer` arg (#106)](https://github.com/PrismarineJS/prismarine-item/commit/d36111d1a754ed9a3db152465b7a930b6582474f) (thanks @extremeheat)
+* [Add `maxDurability` field, fix handling item sent by server with new `sentByServer` arg (#106)](https://github.com/PrismarineJS/reinarpg-item/commit/d36111d1a754ed9a3db152465b7a930b6582474f) (thanks @extremeheat)
 
 ### 1.13.1
-* [Fix null item handling in toNotch (#103)](https://github.com/PrismarineJS/prismarine-item/commit/0fd5781c1c539207aa932bb637c074e671196f60) (thanks @extremeheat)
+* [Fix null item handling in toNotch (#103)](https://github.com/PrismarineJS/reinarpg-item/commit/0fd5781c1c539207aa932bb637c074e671196f60) (thanks @extremeheat)
 
 ### 1.13.0
-* [Bedrock support (#86)](https://github.com/PrismarineJS/prismarine-item/commit/854c357c4835cff74d9c9812b599528103bf2976) (thanks @CreeperG16)
+* [Bedrock support (#86)](https://github.com/PrismarineJS/reinarpg-item/commit/854c357c4835cff74d9c9812b599528103bf2976) (thanks @CreeperG16)
 
 ### 1.12.3
-* [add commands workflow (#99)](https://github.com/PrismarineJS/prismarine-item/commit/a4f5d593be8a80fbe539369efe2d1127c9785583) (thanks @extremeheat)
-* [Update to node 18.0.0 (#98)](https://github.com/PrismarineJS/prismarine-item/commit/52098ca2b0a9eafa6bcde3cdfb3c2315bab258a5) (thanks @rom1504)
+* [add commands workflow (#99)](https://github.com/PrismarineJS/reinarpg-item/commit/a4f5d593be8a80fbe539369efe2d1127c9785583) (thanks @extremeheat)
+* [Update to node 18.0.0 (#98)](https://github.com/PrismarineJS/reinarpg-item/commit/52098ca2b0a9eafa6bcde3cdfb3c2315bab258a5) (thanks @rom1504)
 
 ## 1.12.2
 
@@ -247,4 +247,4 @@ Max durability for the item, if it supports durability
 
 ### 0.0.0
 
-* Import from mineflayer
+* Import from reinarpg-bot

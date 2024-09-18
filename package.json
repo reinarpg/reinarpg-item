@@ -1,5 +1,5 @@
 {
-  "name": "prismarine-item",
+  "name": "reinarpg-item",
   "version": "1.14.0",
   "description": "Represent a minecraft item with its associated data",
   "main": "index.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrismarineJS/prismarine-item.git"
+    "url": "git+https://github.com/PrismarineJS/reinarpg-item.git"
   },
   "devDependencies": {
     "@types/node": "^22.3.0",
     "expect": "^29.1.2",
     "mocha": "^10.0.0",
-    "prismarine-item": "file:.",
+    "reinarpg-item": "file:.",
     "standard": "^17.0.0"
   },
   "keywords": [
@@ -26,12 +26,12 @@
     "item",
     "prismarine"
   ],
-  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "author": "Rauf Şen <raufsen11@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/prismarine-item/issues"
+    "url": "https://github.com/PrismarineJS/reinarpg-item/issues"
   },
-  "homepage": "https://github.com/PrismarineJS/prismarine-item#readme",
+  "homepage": "https://github.com/PrismarineJS/reinarpg-item#readme",
   "dependencies": {
     "prismarine-nbt": "^2.0.0",
     "prismarine-registry": "^1.4.0"
