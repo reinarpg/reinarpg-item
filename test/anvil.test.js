@@ -3,7 +3,7 @@
 const expect = require('expect').default
 
 describe('1.8.9 anvil', () => {
-  const Item = require('prismarine-item')('1.8.8')
+  const Item = require('reinarpg-item')('1.8.8')
   it('combine two damaged sword', () => {
     const sword1 = Item.fromNotch({ blockId: 276, itemCount: 1, itemDamage: 5, nbtData: { type: 'compound', name: '', value: { ench: { type: 'list', value: { type: 'compound', value: [{ lvl: { type: 'short', value: 1 }, id: { type: 'short', value: 34 } }] } }, RepairCost: { type: 'int', value: 1 } } } })
     const sword2 = Item.fromNotch({ blockId: 276, itemCount: 1, itemDamage: 3 })
@@ -137,7 +137,7 @@ describe('1.8.9 anvil', () => {
 })
 
 describe('1.16.5 anvil', () => {
-  const Item = require('prismarine-item')('1.16.5')
+  const Item = require('reinarpg-item')('1.16.5')
   const registry = require('prismarine-registry')('1.16.5')
 
   function makeBook (ench, repairCost) {
